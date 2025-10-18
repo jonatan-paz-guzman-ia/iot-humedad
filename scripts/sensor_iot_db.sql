@@ -1,0 +1,1 @@
+CREATE DATABASE sensor_iot_db;
