@@ -103,7 +103,7 @@ CREATE DATABASE sensor_iot_db;
 
 Inicia el servidor con:
 ```bash
-uv run uvicorn app.main:app --reload
+uv run uvicorn app.main:app --host 0.0.0.0 --port 8080 --reload
 ```
 
 La API quedará disponible en:
