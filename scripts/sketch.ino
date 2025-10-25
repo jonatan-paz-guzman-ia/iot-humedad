@@ -15,7 +15,7 @@ DHT dht(DHTPIN, DHTTYPE);
 #define SOIL_PIN 34     // Pin analógico (solo lectura ADC)
 
 // --- URL del API ---
-String serverName = "http://192.168.0.9:8080/sensor/";
+String serverName = "http://ec2-3-80-141-213.compute-1.amazonaws.com:8080/sensor/";
 
 void setup() {
   Serial.begin(115200);
@@ -80,5 +80,5 @@ void loop() {
     WiFi.reconnect();
   }
 
-  delay(10000); // Enviar cada 10 segundos
+  delay(2000); // Enviar cada 2 segundos
 }
