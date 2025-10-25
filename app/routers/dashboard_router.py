@@ -47,7 +47,7 @@ def show_dashboard(db: Session = Depends(get_db)):
     html = f"""
     <html>
     <head>
-        <meta http-equiv="refresh" content="30">
+        <meta http-equiv="refresh" content="10">
         <title>Dashboard IoT 🌦️</title>
     </head>
     <body style="font-family:Arial; margin:40px;">
